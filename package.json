@@ -1,0 +1,18 @@
+{
+  "name": "crypto-news",
+  "version": "1.0.0",
+  "description": "Here I make a telegram bot for receiving crypto news and prices using coinmarketcap API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mubin",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
